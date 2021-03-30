@@ -1,6 +1,6 @@
 # Data Broker Lobbying
 
-This repository contains code and data to reproduce the findings featured in our story, "[The Little-Known Data Broker Industry Is Spending Big Bucks Lobbying Congress]()."
+This repository contains code and data to reproduce the findings featured in our story "[The Little-Known Data Broker Industry Is Spending Big Bucks Lobbying Congress]()."
 
 ## Methodology
 
@@ -12,7 +12,7 @@ A copy of both the California and Vermont tables are included in this repository
 
 We used [The Center for Responsive Politics' approach](https://www.opensecrets.org/federal-lobbying/methodology#totals) to calculate total spending amounts.
 
-To identify bills, we used regular expression to pull bill numbers from filings' issue descriptions, and searched for the titles in the [U.S. Congress legislation database](https://www.congress.gov/search?q={%22source%22:%22legislation%22,%22congress%22:116,%22type%22:%22bills%22,%22chamber%22:%22House%22}&searchResultViewType=expanded). 
+To identify bills, we used regular expression to pull bill numbers from filings' issue descriptions and searched for the titles in the [U.S. Congress legislation database](https://www.congress.gov/search?q={%22source%22:%22legislation%22,%22congress%22:116,%22type%22:%22bills%22,%22chamber%22:%22House%22}&searchResultViewType=expanded). 
 
 ## Data
 
@@ -22,10 +22,10 @@ To identify bills, we used regular expression to pull bill numbers from filings'
 | -------|-------------|
 | `filing_id` | The filing ID  |
 | `url` | A link to the filing on the U.S. Senate's website|
-| `parent_company` | The parent company, if a company is a subsidiary of a larger company.|
-| `company` | The company name. |
-| `client_name` | The company name as it appears in the filing. |
-| `lobbying_firm` | The lobbying firm as it appears in the filing. |
+| `parent_company` | The parent company, if a company is a subsidiary of a larger company|
+| `company` | The company name |
+| `client_name` | The company name as it appears in the filing |
+| `lobbying_firm` | The lobbying firm as it appears in the filing |
 | `is_self_filer` | `TRUE` or `FALSE` depending |
 | `type` | What kind of report the filing is, according the filing itself 
 | `period` | The reporting period, according to the filing itself |
