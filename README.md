@@ -1,10 +1,10 @@
 # Data Broker Lobbying
 
-This repository contains code and data to reproduce the findings featured in our story "[The Little-Known Data Broker Industry Is Spending Big Bucks Lobbying Congress]()."
+This repository contains code and data to reproduce the findings featured in our story "[The Little-Known Data Broker Industry Is Spending Big Bucks Lobbying Congress](https://themarkup.org/privacy/2021/03/31/the-little-known-data-broker-industry-is-spending-big-bucks-lobbying-congress)."
 
 ## Methodology
 
-We used [California]() and [Vermont]()'s data broker databases to identify company names. 
+We used [California](https://oag.ca.gov/data-brokers) and [Vermont](https://bizfilings.vermont.gov/online/DatabrokerInquire/DataBrokerSearch)'s data broker databases to identify company names. 
 
 We compared the data broker company names to client names listed in the Senate's [Lobbying Disclosure Act Database](https://www.senate.gov/legislative/Public_Disclosure/database_download.htm). We looked at 2020 filings received from Q1 2020 through Q1 2021.
 
@@ -26,7 +26,7 @@ To identify bills, we used regular expression to pull bill numbers from filings'
 | `company` | The company name |
 | `client_name` | The company name as it appears in the filing |
 | `lobbying_firm` | The lobbying firm as it appears in the filing |
-| `is_self_filer` | `TRUE` or `FALSE` depending |
+| `is_self_filer` | `TRUE` or `FALSE` depending on whether the "Self" box is checked in the "Client" section of the filing |
 | `type` | What kind of report the filing is, according the filing itself 
 | `period` | The reporting period, according to the filing itself |
 | `spending` | The estimated dollar amount spent, according to the filing|
