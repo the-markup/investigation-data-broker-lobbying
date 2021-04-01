@@ -1,6 +1,6 @@
 # Data Broker Lobbying
 
-This repository contains code and data to reproduce the findings featured in our story "[The Little-Known Data Broker Industry Is Spending Big Bucks Lobbying Congress](https://themarkup.org/privacy/2021/03/31/the-little-known-data-broker-industry-is-spending-big-bucks-lobbying-congress)."
+This repository contains code and data to reproduce the findings featured in our story "[The Little-Known Data Broker Industry Is Spending Big Bucks Lobbying Congress](https://themarkup.org/privacy/2021/04/01/the-little-known-data-broker-industry-is-spending-big-bucks-lobbying-congress)."
 
 ## Methodology
 
